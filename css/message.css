@@ -1,0 +1,54 @@
+form {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    /* 表单边框 */
+    border: 1px solid rgb(145, 158, 169);
+    border-radius: 1em;
+    background-image: url(../imgs/bgc3.jpg);
+    background-size: 100% 100%;
+}
+
+div#f{
+    width: 1300px;
+}
+
+/* 为了美观，去掉表单标签前的· */
+ul {
+    list-style: none;
+}
+
+/* 保证每一个标签都有一样的大小 */
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    border-color: rgb(29, 26, 26);
+}
+
+textarea {
+    vertical-align: top;
+    height: 10em;
+}
+
+/* 提交所处位置 */
+.button {
+    text-align: center;
+}
+
+button {
+    margin: auto;
+    background-color: #566972;
+    font-size: 20px;
+}

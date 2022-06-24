@@ -1,0 +1,37 @@
+.dailylist {
+    padding: 30px 200px;
+}
+
+.list_titls {
+    padding: 30px;
+    text-align: center;
+    font-size: xx-large;
+    color: #1a3555;
+}
+
+.item_info {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.imgsinfo {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.item_info p {
+    width: 400px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.right_tit {
+    font-size: 18px;
+    padding-bottom: 10px;
+    display: block;
+    color: #487cb8;
+    font-weight: 550;
+}
